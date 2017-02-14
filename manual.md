@@ -34,7 +34,10 @@ To address this need, KEMP Technologies continues to expand on the comprehensive
 
 Once the Test Drive deployment completes use the provided URL, Username, and Password to access the LoadMaster.
 
-Enter the provided URL into your browser. **You must use TCP Port 8443 to access the LoadMaster Web User Interface (WUI).**
+1. Enter the provided URL into your browser. **You must use TCP Port 8443 to access the LoadMaster Web User Interface (WUI).**
+
+*Example: https://vlmhoeeei2eds2boe.eastus.cloudapp.azure.com:8443*
+
 ![Accessing the Web UI](images/access.png "Entering the Web UI")
 Select "Continue to this website (not recommended)"
 Enter the provided username and password:
@@ -44,18 +47,21 @@ Enter the provided username and password:
 
 ![Web UI Authorization](images/auth.png "Accessing the Web UI")
 
-Scroll down and accept the LoadMaster End User License Agreement
+1. Scroll down and accept the LoadMaster End User License Agreement
 ![EULA Agreement](images/eula.png "EULA Agreement")
 
-KEMP Loadmasters require a free KEMP ID to function. If you do not have a KEMP ID, you can create one by going to https://kemptechnologies.com/kemp-id-registration. **Use the promo-code "TESTDRIVE" when registering.**
 
-Enter your KEMP ID to license the Free LoadMaster and click "License Now"
+1. KEMP Loadmasters require a free KEMP ID to function. If you do not have a KEMP ID, you can create one by going to https://kemptechnologies.com/kemp-id-registration. **Use the promo-code "TESTDRIVE" when registering.**
+
+
+1. Enter your KEMP ID to license the Free LoadMaster and click "License Now"
 ![Logging in](images/login.png "Logging in")
 
-Select VLM-BYOL-FREE-Azure and click "Continue"
+
+1. Select VLM-BYOL-FREE-Azure and click "Continue"
 ![licensing](images/license.png "licensing")
 
-On the Allow Call Home page select "Allow"
+1. On the Allow Call Home page select "Allow"
 ![call home](images/call_home.png "call home")
 
 ### Configuration
@@ -63,4 +69,54 @@ On the Allow Call Home page select "Allow"
 *Note: Configuration is only accessible after licensing.*
 
 The Virtual Services on the LoadMaster defines the Virtual IP (VIP) address, port, protocol and Name.
+
+1. In the left-hand navigation select Virtual Services and click Add New
+![virtual service](images/vs.png "Virutal Service")
+
+
+1. Enter a Name for the Virtual Service and click Add this Virtual Service. Leave the Virtual Address, Port, and Protocol as the defaults.
+![adding a virtual service](images/adding_vs.png "adding a virtual service")
+
+
+*For this step of the Test Drive all options and properties will remain unchanged.  Feel free to navigate through the Virtual Service options to familiarize yourself with the features and functions KEMP provides on the LoadMaster.*
+
+1. Select Real Servers
+![adding a real server](images/rs.png "adding a real server")
+
+
+1. Select add new
+![adding a new real server](images/add_new.png "adding a new real server")
+
+
+1. Under Real Server Address enter 10.0.0.10 and click Add This Real Server, then click OK
+![adding a new real server 2](images/adding_real_server_step2.png "adding a new real server 2")
+
+
+1. Under Real Server Address enter 10.0.0.11 and click Add this Real Server, then click OK
+![adding a new real server 3](images/adding_real_server_step3.png "adding a new real server 3")
+
+
+1. In the left-hand navigation, under Virtual Services click View/Modify Services
+![view modify](images/view_modify.png "view modify virtual services")
+
+
+1. It will take a few seconds for validation of the Virtual Service to complete.  Once complete the Virtual Service Status will display UP with two healthy Real Servers.
+![everythings up](images/everythings_up.png "everythings up")
+
+
+## Testing the Virtual Service
+
+*To test the functionality of the Virtual Service, use the same URL that was used to access the LoadMaster. This time the HTTP protocol will be used on port 80. Example: http://vlmhoeeei2eds2boe.eastus.cloudapp.azure.com*
+
+
+1. Open your browser and navigate using the URL provided by your Test Drive.  The page below will be displayed in your browser.
+![it worked](images/it_worked.png "it worked")
+
+
+1. On the KEMP LoadMaster left hand navigation select Statistics and Real Time Statistics
+![real time statistics](images/rts.png "real time statistics")
+
+
+1. Click through the Global, Real Servers, Virtual Services, Connections, Bytes, Bits, and Packets to see the statistical information provided by the KEMP LoadMaster.
+![stats](images/stats.png "your stats")
 
