@@ -73,6 +73,7 @@ Enter the provided username and password:
 The Virtual Services on the LoadMaster defines the Virtual IP (VIP) address, port, protocol and Name.
 
 1. In the left-hand navigation select Virtual Services and click Add New
+
 ![virtual service](images/vs.png "Virutal Service")
 
 
@@ -113,7 +114,7 @@ The Virtual Services on the LoadMaster defines the Virtual IP (VIP) address, por
 
 
 1. Open your browser and navigate using the URL provided by your Test Drive.  The page below will be displayed in your browser.
-![it worked](images/it_worked.png "it worked")
+![it worked](images/itworked.png "it worked")
 
 
 1. On the KEMP LoadMaster left hand navigation select Statistics and Real Time Statistics
@@ -148,6 +149,7 @@ Note: In this Test Drive environment RADIUS Authentication will be used but seve
 
 
 1. In the LoadMaster left hand navigation, select View/Modify Services
+
 ![vs view modify](images/vs_view_modify.png "vs view modify")
 
 
@@ -187,7 +189,7 @@ Note: In this Test Drive environment RADIUS Authentication will be used but seve
  
  
  1. In the LoadMaster left hand navigation, select System Configuration, Logging Options and select Extended Log Files
- ![ext login](images/ext_login.png "ext login")
+ ![ext login](images/ext_log.png "ext login")
  
  
  1. Select View for ESP User Log
