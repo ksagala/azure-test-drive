@@ -80,6 +80,7 @@ The Virtual Services on the LoadMaster defines the Virtual IP (VIP) address, por
 
 *For this step of the Test Drive all options and properties will remain unchanged.  Feel free to navigate through the Virtual Service options to familiarize yourself with the features and functions KEMP provides on the LoadMaster.*
 
+
 1. Select Real Servers
 ![adding a real server](images/rs.png "adding a real server")
 
