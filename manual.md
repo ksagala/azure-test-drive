@@ -132,3 +132,38 @@ Note: In this Test Drive environment RADIUS Authentication will be used but seve
 
 1. In the LoadMaster left hand navigation, select Virtual Services and select Manage SSO
 ![menu sso](images/menu_sso.png "menu sso")
+
+
+1. Under Client Side Single Sign on Configurations, enter a name for the SSO domain and click Add
+![sso domain](images/sso_domain.png "sso domain")
+
+
+1. Configure the Single Sign on Domain with the following settings. Select the button to the right of each field to apply each setting.
+
+  * Authentication Protocol = Radius
+  * RADIUS Server(s) = 10.0.0.5
+  * RADIUS Shared Secret (case sensitive) = testdrivesecret
+  * Domain/ Realm (case sensitive) = testdrive.com 
+![radius setup](images/radius_setup.png "radius_setup")
+
+
+1. In the LoadMaster left hand navigation, select View/Modify Services
+![vs view modify](images/vs_view_modify.png "vs view modify")
+
+
+1. Select Modify on the Test Drive Virtual Service
+![mod](images/mod.png "mod")
+
+
+1. Select ESP Options and tick the Enable ESP box
+![esp](images/esp2.png "esp2")
+
+
+1. Configure the ESP Options with the following settings. Click the button to the right of each field to apply each setting.
+
+  * Client Authentication Mode = Forms Based
+  * SSO Domain = Select the name of the SSO domain created earlier
+  * Allowed Virtual Directories = Enter the unique URL provided by your Test Drive
+  * Allow Virtual Directories = /\*
+![confesp](images/confesp.png "confesp")
+
