@@ -42,8 +42,8 @@ Once the Test Drive deployment completes use the provided URL, Username, and Pas
 Select "Continue to this website (not recommended)"
 Enter the provided username and password:
 
-* Username: bal
-* Password: Kemp@testdrive1
+ * Username: bal
+ * Password: Kemp@testdrive1
 
 ![Web UI Authorization](images/auth.png "Accessing the Web UI")
 
@@ -167,3 +167,48 @@ Note: In this Test Drive environment RADIUS Authentication will be used but seve
   * Allow Virtual Directories = /\*
 ![confesp](images/confesp.png "confesp")
 
+
+## Test KEMP Edge Security Pack
+
+*Now that the Single Sign On domain has been created and Edge Security Pack has been enabled on the Virtual Service, the pre-authentication functionality can be verified.*
+
+
+1. Open browser and navigate using the URL provided by your Test Drive.  The authentication form below will be displayed in your browser. *Example: http://vlmhoeeei2eds2boe.eastus.cloudapp.azure.com*
+![edge login](images/edge_login.png "edge login")
+
+
+1. Enter the following credentials to access the web site.
+ * Username = tduser1
+ * Password = testdrivepass
+ 
+ 
+ 1. Once logged in you will once again be presented with the KEMP Demo Page.
+ ![welcome](images/welcome.png "welcome")
+ 
+ 
+ 1. In the LoadMaster left hand navigation, select System Configuration, Logging Options and select Extended Log Files
+ ![ext login](images/ext_login.png "ext login")
+ 
+ 
+ 1. Select View for ESP User Log
+ ![view](images/view.png "view")
+
+
+1. Notice the allowed login for tduser1.
+ ![ohlook](images/ohlook.png "ohlook")
+
+
+### Next Steps
+
+
+Hopefully this Azure Test Drive demonstrated how easy the KEMP LoadMaster is to setup and operate.  Additional features can be explored through our Free LoadMaster in the Azure Marketplace or one of our full featured offerings provided with either hourly or bring your own license (BYOL) options. If you'd like to speak with a KEMP representative contact us at http://kemptechnologies.com/contact
+
+
+## Additional Links
+ 
+
+[KEMP LoadMaster in Azure](https://kemptechnologies.com/azure/) 
+
+[Documentation](https://kemptechnologies.com/loadMaster-documentation)
+
+[KEMP 360](https://kemptechnologies.com/kemp360/application-network-optimization-performance-management/)
