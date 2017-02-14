@@ -64,7 +64,9 @@ Enter the provided username and password:
 1. On the Allow Call Home page select "Allow"
 ![call home](images/call_home.png "call home")
 
-### Configuration
+## LoadMaster Configuration
+
+### Setting up a Virtual Service and Real Server
 
 *Note: Configuration is only accessible after licensing.*
 
@@ -103,7 +105,9 @@ The Virtual Services on the LoadMaster defines the Virtual IP (VIP) address, por
 ![everythings up](images/everythings_up.png "everythings up")
 
 
-## Testing the Virtual Service
+## Testing the configuration
+
+### Testing the Virtual Service
 
 *To test the functionality of the Virtual Service, use the same URL that was used to access the LoadMaster. This time the HTTP protocol will be used on port 80. Example: http://vlmhoeeei2eds2boe.eastus.cloudapp.azure.com*
 
@@ -119,3 +123,12 @@ The Virtual Services on the LoadMaster defines the Virtual IP (VIP) address, por
 1. Click through the Global, Real Servers, Virtual Services, Connections, Bytes, Bits, and Packets to see the statistical information provided by the KEMP LoadMaster.
 ![stats](images/stats.png "your stats")
 
+
+## Configuring KEMP Edge Security Pack (ESP)
+
+*Now that the Virtual Service is configured and tested, the Edge Security Pack functionality can be added to secure the backend web application.*
+
+Note: In this Test Drive environment RADIUS Authentication will be used but several other methods are available, such as LDAP (Active Directory), Certificates, and RSA-SecureID. For more information see the [KEMP Edge Security Pack](https://kemptechnologies.com/microsoft-load-balancing/microsoft-forefront-tmg-replacement/) page.
+
+1. In the LoadMaster left hand navigation, select Virtual Services and select Manage SSO
+![menu sso](images/menu_sso.png "menu sso")
