@@ -76,8 +76,6 @@ The Virtual Services on the LoadMaster defines the Virtual IP (VIP) address, por
 
 1. Enter a Name for the Virtual Service and click Add this Virtual Service. Leave the Virtual Address, Port, and Protocol as the defaults.
 ![adding a virtual service](images/adding_vs.png "adding a virtual service")
-
-
 *For this step of the Test Drive all options and properties will remain unchanged.  Feel free to navigate through the Virtual Service options to familiarize yourself with the features and functions KEMP provides on the LoadMaster.*
 
 
