@@ -8,28 +8,6 @@ Since 2000, KEMP has been a consistent leader in innovation with a number of ind
 
 The KEMP Azure Test Drive will walk you through the initial setup of a KEMP Virtual LoadMaster. You will configure a the LoadMaster to send traffic to two web-server replicas as well as KEMP’s Edge Security Pack (ESP) which provides security and pre-authentication access to the backend web services.
 
-*Note: Configuration is only accessible after licensing.*
-
-The Virtual Services on the LoadMaster defines the Virtual IP (VIP) address, port, protocol and Name.
-
-1. In the left-hand navigation select Virtual Services and click Add New
-
-![virtual service](https://github.com/KEMPtechnologies/azure-test-drive/raw/master/images/vs.png "Virutal Service")
-
-
-1. Enter a Name for the Virtual Service and click Add this Virtual Service. Leave the Virtual Address, Port, and Protocol as the defaults.
-![adding a virtual service](https://github.com/KEMPtechnologies/azure-test-drive/raw/master/images/adding_vs.png "adding a virtual service")
-*For this step of the Test Drive all options and properties will remain unchanged.  Feel free to navigate through the Virtual Service options to familiarize yourself with the features and functions KEMP provides on the LoadMaster.*
-
-
-1. Select Real Servers
-![adding a real server](https://github.com/KEMPtechnologies/azure-test-drive/raw/master/images/rs.png "adding a real server")
-
-
-1. Select add new
-![adding a new real server](https://github.com/KEMPtechnologies/azure-test-drive/raw/master/images/add_new.png "adding a new real server")
-
-
 1. Under Real Server Address enter 10.0.0.10 and click Add This Real Server, then click OK
 ![adding a new real server 2](https://github.com/KEMPtechnologies/azure-test-drive/raw/master/images/adding_real_server_step2.png "adding a new real server 2")
 
