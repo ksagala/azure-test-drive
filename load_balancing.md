@@ -148,3 +148,16 @@ Note: In this Test Drive environment RADIUS Authentication will be used but seve
   * Allowed Virtual Directories = Enter the unique URL provided by your Test Drive
   * Allow Virtual Directories = /\*
 ![confesp](https://github.com/KEMPtechnologies/azure-test-drive/raw/master/images/confesp.png "confesp")
+
+
+### Next Steps
+
+Hopefully this Azure Test Drive demonstrated how easy the KEMP LoadMaster is to setup and operate.  Additional features can be explored through our Free LoadMaster in the Azure Marketplace or one of our full featured offerings provided with either hourly or bring your own license (BYOL) options. If you'd like to speak with a KEMP representative contact us at http://kemptechnologies.com/contact
+
+## Additional Links
+ 
+[KEMP LoadMaster in Azure](https://kemptechnologies.com/azure/) 
+
+[Documentation](https://kemptechnologies.com/loadMaster-documentation)
+
+[KEMP 360](https://kemptechnologies.com/kemp360/application-network-optimization-performance-management/)
