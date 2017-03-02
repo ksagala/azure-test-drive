@@ -6,15 +6,15 @@ Since 2000, KEMP has been a consistent leader in innovation with a number of ind
 
 ### Test Drive Description
 
-The KEMP Azure Test Drive will walk you through the initial setup of a KEMP Virtual LoadMaster. You will configure a the LoadMaster to send traffic to two web-server replicas as well as KEMP’s Edge Security Pack (ESP) which provides security and pre-authentication access to the backend web services.
+The KEMP Azure Test Drive will walk you through the initial setup of a KEMP Virtual LoadMaster. You will configure a LoadMaster to send traffic to two web-server replicas as well as KEMP’s Edge Security Pack (ESP) which provides security and pre-authentication access to the backend web services.
 
 ## Test Drive: Getting Started
 
 ### Licensing and accessing the LoadMaster
 
-Once the Test Drive deployment completes use the provided URL, Username, and Password to access the LoadMaster.
+Once the Test Drive deployment completes use the provided URL Username and Password to access the LoadMaster.
 
-1. Enter the provided URL into your browser. **You must use TCP Port 8443 to access the LoadMaster Web User Interface (WUI).**
+Enter the provided URL into your browser. **You must use TCP Port 8443 to access the LoadMaster Web User Interface (WUI).**
 
 *Example: https://vlmhoeeei2eds2boe.eastus.cloudapp.azure.com:8443*
 
@@ -31,7 +31,7 @@ Enter the provided username and password:
 ![EULA Agreement](https://github.com/KEMPtechnologies/azure-test-drive/raw/master/images/eula.png "EULA Agreement")
 
 
-1. KEMP Loadmasters require a free KEMP ID to function. If you do not have a KEMP ID, you can create one by going to https://kemptechnologies.com/kemp-id-registration. **Use the promo-code "TESTDRIVE" when registering.**
+1. KEMP LoadMasters require a free KEMP ID to function. If you do not have a KEMP ID, you can create one by going to https://kemptechnologies.com/kemp-id-registration. **Use the promo-code "TESTDRIVE" when registering.**
 
 
 1. Enter your KEMP ID to license the Free LoadMaster and click "License Now"
