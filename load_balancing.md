@@ -6,7 +6,7 @@ Since 2000, KEMP has been a consistent leader in innovation with a number of ind
 
 ### Test Drive Description
 
-The KEMP Azure Test Drive will walk you through the initial setup of a KEMP Virtual LoadMaster. You will configure a LoadMaster to send traffic to two web-server replicas as well as KEMP’s Edge Security Pack (ESP) which provides security and pre-authentication access to the backend web services.
+The KEMP Azure Test Drive will walk you through the initial setup of a KEMP Virtual LoadMaster. You will configure a LoadMaster to send traffic to two web-server replicas.
 
 ## Test Drive: Getting Started
 
