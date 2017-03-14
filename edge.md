@@ -139,7 +139,7 @@ Note: In this Test Drive environment RADIUS Authentication will be used but seve
 
   * Client Authentication Mode = Forms Based
   * SSO Domain = Select the name of the SSO domain created earlier
-  * Allowed Virtual Directories = Enter the unique URL provided by your Test Drive
+  * Allowed Virtual Hosts = Enter the unique URL provided by your Test Drive
   * Allow Virtual Directories = /\*
 ![confesp](https://github.com/KEMPtechnologies/azure-test-drive/raw/master/images/confesp.png "confesp")
 
