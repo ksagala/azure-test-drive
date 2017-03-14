@@ -167,7 +167,7 @@ Note: In this Test Drive environment RADIUS Authentication will be used but seve
  
  
  1. Select View for ESP User Log
- ![view](https://github.com/KEMPtechnologies/azure-test-drive/raw/master/images/view.png "view")
+ ![view](https://github.com/KEMPtechnologies/azure-test-drive/raw/master/images/esp_user_log.png "view")
 
 
 1. Notice the allowed login for tduser1.
