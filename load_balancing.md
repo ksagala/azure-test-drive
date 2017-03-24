@@ -105,51 +105,6 @@ The Virtual Services on the LoadMaster defines the Virtual IP (VIP) address, por
 ![stats](https://github.com/KEMPtechnologies/azure-test-drive/raw/master/images/stats.png "your stats")
 
 
-## Configuring KEMP Edge Security Pack (ESP)
-
-*Now that the Virtual Service is configured and tested, the Edge Security Pack functionality can be added to secure the backend web application.*
-
-Note: In this Test Drive environment RADIUS Authentication will be used but several other methods are available, such as LDAP (Active Directory), Certificates, and RSA-SecureID. For more information see the [KEMP Edge Security Pack](https://kemptechnologies.com/microsoft-load-balancing/microsoft-forefront-tmg-replacement/) page.
-
-1. In the LoadMaster left hand navigation, select Virtual Services and select Manage SSO
-![menu sso](https://github.com/KEMPtechnologies/azure-test-drive/raw/master/images/menu_sso.png "menu sso")
-
-
-1. Under Client Side Single Sign on Configurations, enter a name for the SSO domain and click Add
-![sso domain](https://github.com/KEMPtechnologies/azure-test-drive/raw/master/images/sso_domain.png "sso domain")
-
-
-1. Configure the Single Sign on Domain with the following settings. Select the button to the right of each field to apply each setting.
-
-  * Authentication Protocol = Radius
-  * RADIUS Server(s) = 10.0.0.5
-  * RADIUS Shared Secret (case sensitive) = testdrivesecret
-  * Domain/ Realm (case sensitive) = testdrive.com 
-![radius setup](https://github.com/KEMPtechnologies/azure-test-drive/raw/master/images/radius_setup.png "radius_setup")
-
-
-1. In the LoadMaster left hand navigation, select View/Modify Services
-
-![vs view modify](https://github.com/KEMPtechnologies/azure-test-drive/raw/master/images/vs_view_modify.png "vs view modify")
-
-
-1. Select Modify on the Test Drive Virtual Service
-![mod](https://github.com/KEMPtechnologies/azure-test-drive/raw/master/images/mod.png "mod")
-
-
-1. Select ESP Options and tick the Enable ESP box
-![esp](https://github.com/KEMPtechnologies/azure-test-drive/raw/master/images/esp2.png "esp2")
-
-
-1. Configure the ESP Options with the following settings. Click the button to the right of each field to apply each setting.
-
-  * Client Authentication Mode = Forms Based
-  * SSO Domain = Select the name of the SSO domain created earlier
-  * Allowed Virtual Directories = Enter the unique URL provided by your Test Drive
-  * Allow Virtual Directories = /\*
-![confesp](https://github.com/KEMPtechnologies/azure-test-drive/raw/master/images/confesp.png "confesp")
-
-
 ### Next Steps
 
 Hopefully this Azure Test Drive demonstrated how easy the KEMP LoadMaster is to setup and operate.  Additional features can be explored through our Free LoadMaster in the Azure Marketplace or one of our full featured offerings provided with either hourly or bring your own license (BYOL) options. If you'd like to speak with a KEMP representative contact us at http://kemptechnologies.com/contact
